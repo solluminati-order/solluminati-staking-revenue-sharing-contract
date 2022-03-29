@@ -1,0 +1,16 @@
+[programs.localnet]
+token_stake_model = "PROGRAM ID HERE"
+[programs.devnet]
+token_stake_model = "PROGRAM ID HERE"
+[programs.mainnet]
+token_stake_model = "PROGRAM ID HERE"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "mainnet"
+wallet = "PATH_TO_WALLET.JSON FILE USED IN SOLANA CONFIG"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
